@@ -19,7 +19,7 @@ and uses this information to produce a picture of the interior organs.
 
 On the other hand, filtered back projection is a method that uses the projection technique's 
 projection data to rebuild a picture. It reconstructs the picture by first applying a mathematical filter on 
-the projection data and then utilizing the filtered data. The end product is a comprehensive, twodimensional illustration of the interior anatomy of the body. Both the projection and the filtered back projection algorithms are crucial components of medical X-ray imaging because they let medical professionals build precise pictures of the inside of the body and identify and cure a wide range of 
+the projection data and then utilizing the filtered data. The end product is a comprehensive, two-dimensional illustration of the interior anatomy of the body. Both the projection and the filtered back projection algorithms are crucial components of medical X-ray imaging because they let medical professionals build precise pictures of the inside of the body and identify and cure a wide range of 
 illnesses.
 
 In this study, an input image with known attenuation coefficients is projected according to the inputs specified by the user. Users can decide the input image to be projected, the number of sampling points, projection angles, and rotation angle to rotate the image. These input parameters are used to calculate the projection of the input image, and projection data is created. Then, this data is used to 
